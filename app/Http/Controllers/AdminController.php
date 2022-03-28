@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Product;
 use Illuminate\Http\Request;
 
 class AdminController extends Controller
@@ -11,6 +12,7 @@ class AdminController extends Controller
         $this->middleware(["auth"]);
     }
     public function index(){
-        return view('admin');
+        $products = Product::orderBy('created_at', 'desc')->paginate(10);
+        return view('admin.index',  ["products" => $products]);
     }
 }

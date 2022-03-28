@@ -27,11 +27,34 @@ https://templatemo.com/tm-546-sixteen-clothing
     <link rel="stylesheet" href="/assets/css/owl.css" />
 </head>
 
-<body style="background: linear-gradient(90deg, #6f42c1, #343a40)">
+<body style="background: linear-gradient(90deg, #031a47, #4a103e)">
     <!-- ***** Preloader Start ***** -->
 
     <!-- ***** Preloader End ***** -->
 
+    <header style="position: relative">
+        <nav class="navbar navbar-expand-lg">
+            <div class="d-flex align-center container">
+                <a class="navbar-brand" href="{{ route('home') }}">
+                    <h2>Korpe.<em>Kz</em></h2>
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+                    aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ route('admin') }}">Админ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ route('createproduct') }}">Жаңадан қосу</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
     <!-- Header -->
     @yield('content')
 

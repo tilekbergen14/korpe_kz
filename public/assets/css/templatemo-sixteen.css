@@ -36,7 +36,9 @@ h5,
 h6 {
   margin: 0px;
 }
-
+td, th{
+  vertical-align: middle !important;
+}
 ul.social-icons li {
   display: inline-block;
   margin-right: 3px;
@@ -176,7 +178,11 @@ a.filled-button:hover {
   -webkit-animation-delay: 0.66666s;
   animation-delay: 0.66666s;
 }
-
+.uploaded-img{
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+}
 @-webkit-keyframes jumper {
   0% {
     opacity: 0;
@@ -246,7 +252,6 @@ header .navbar {
 }
 .navbar .navbar-brand {
   float: left;
-  margin-top: -12px;
   outline: none;
 }
 .navbar .navbar-brand h2 {
@@ -287,8 +292,8 @@ header .navbar {
 .navbar .navbar-nav .nav-link.show,
 .navbar .navbar-nav .show > .nav-link {
   color: #fff;
-  padding-bottom: 25px;
-  border-bottom: 3px solid #000000;
+  /* padding-bottom: 25px;
+  border-bottom: 3px solid #000000; */
 }
 .navbar .navbar-toggler-icon {
   background-image: none;
@@ -432,6 +437,7 @@ header .navbar {
   width: 100%;
   overflow: hidden;
   aspect-ratio: 16 / 9;
+  object-fit: cover;
 }
 
 .product-item .down-content h4 {
@@ -919,7 +925,9 @@ footer .inner-content p a {
   .banner .text-content h4 {
     font-size: 22px;
   }
-
+  .banner .text-content h3 {
+    font-size: 28px;
+  }
   .banner .text-content h2 {
     font-size: 36px;
     letter-spacing: 0.5px;
@@ -991,6 +999,7 @@ footer .inner-content p a {
     position: absolute;
     left: 30px;
     top: 32px;
+    margin-top: -12px;
   }
   .navbar .navbar-brand {
     width: auto;

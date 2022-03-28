@@ -4,6 +4,7 @@ use App\Http\Controllers\AdminController;
 use App\Http\Controllers\LoginController;
 use App\Http\Controllers\ProductsController;
 use App\Http\Controllers\RegisterController;
+use App\Models\Product;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -30,8 +31,14 @@ Route::post('/register', [RegisterController::class, 'store'])->name("register")
 
 Route::get('/admin', [AdminController::class, 'index'])->name("admin");
 
+Route::get('/admin/createproduct', [ProductsController::class, 'createproduct_get'])->name("createproduct");
+Route::post('/admin/createproduct', [ProductsController::class, 'createproduct_post'])->name("createproduct");
+
+Route::delete('/admin/deletepost/{id}', [ProductsController::class, 'delete'])->name("delete");
+
 
 Route::get('/', function () {
-    return view('welcome');
+    $products = Product::take(6)->get();
+    return view('welcome', ["products" => $products]);
 })->name("home");
 

@@ -33,122 +33,29 @@
                 <div class="col-md-12">
                     <div class="section-heading">
                         <h2>Соңғы тауарлар</h2>
-                        <a href="products.html">барлығын көру <i class="fa fa-angle-right"></i></a>
+                        <a href="{{ route('store') }}">барлығын көру <i class="fa fa-angle-right"></i></a>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="product-item">
-                        <a href="#"><img src="assets/images/product_01.jpg" alt="" /></a>
-                        <div class="down-content">
-                            <a href="#">
-                                <h4>Tittle goes here</h4>
-                            </a>
-                            <h6>$25.75</h6>
-                            <ul class="stars">
-                                <li><i class="fa fa-star"></i></li>
-                                <li><i class="fa fa-star"></i></li>
-                                <li><i class="fa fa-star"></i></li>
-                                <li><i class="fa fa-star"></i></li>
-                                <li><i class="fa fa-star"></i></li>
-                            </ul>
+                @foreach ($products as $product)
+                    <div class="col-md-4">
+                        <div class="product-item">
+                            <a href="#"><img src={{ $product->image }} alt="" /></a>
+                            <div class="down-content">
+                                <a href="#">
+                                    <h4>{{ $product->name }}</h4>
+                                </a>
+                                <h6>{{ $product->price }} &#8366</h6>
+                                <ul class="stars">
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="product-item">
-                        <a href="#"><img src="assets/images/product_02.jpg" alt="" /></a>
-                        <div class="down-content">
-                            <a href="#">
-                                <h4>Tittle goes here</h4>
-                            </a>
-                            <h6>$30.25</h6>
-
-                            <ul class="stars">
-                                <li><i class="fa fa-star"></i></li>
-                                <li><i class="fa fa-star"></i></li>
-                                <li><i class="fa fa-star"></i></li>
-                                <li><i class="fa fa-star"></i></li>
-                                <li><i class="fa fa-star"></i></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="product-item">
-                        <a href="#"><img src="assets/images/product_03.jpg" alt="" /></a>
-                        <div class="down-content">
-                            <a href="#">
-                                <h4>Tittle goes here</h4>
-                            </a>
-                            <h6>$20.45</h6>
-
-                            <ul class="stars">
-                                <li><i class="fa fa-star"></i></li>
-                                <li><i class="fa fa-star"></i></li>
-                                <li><i class="fa fa-star"></i></li>
-                                <li><i class="fa fa-star"></i></li>
-                                <li><i class="fa fa-star"></i></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="product-item">
-                        <a href="#"><img src="assets/images/product_04.jpg" alt="" /></a>
-                        <div class="down-content">
-                            <a href="#">
-                                <h4>Tittle goes here</h4>
-                            </a>
-                            <h6>$15.25</h6>
-
-                            <ul class="stars">
-                                <li><i class="fa fa-star"></i></li>
-                                <li><i class="fa fa-star"></i></li>
-                                <li><i class="fa fa-star"></i></li>
-                                <li><i class="fa fa-star"></i></li>
-                                <li><i class="fa fa-star"></i></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="product-item">
-                        <a href="#"><img src="assets/images/product_05.jpg" alt="" /></a>
-                        <div class="down-content">
-                            <a href="#">
-                                <h4>Tittle goes here</h4>
-                            </a>
-                            <h6>$12.50</h6>
-
-                            <ul class="stars">
-                                <li><i class="fa fa-star"></i></li>
-                                <li><i class="fa fa-star"></i></li>
-                                <li><i class="fa fa-star"></i></li>
-                                <li><i class="fa fa-star"></i></li>
-                                <li><i class="fa fa-star"></i></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="product-item">
-                        <a href="#"><img src="assets/images/product_06.jpg" alt="" /></a>
-                        <div class="down-content">
-                            <a href="#">
-                                <h4>Tittle goes here</h4>
-                            </a>
-                            <h6>$22.50</h6>
-
-                            <ul class="stars">
-                                <li><i class="fa fa-star"></i></li>
-                                <li><i class="fa fa-star"></i></li>
-                                <li><i class="fa fa-star"></i></li>
-                                <li><i class="fa fa-star"></i></li>
-                                <li><i class="fa fa-star"></i></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
+                @endforeach
             </div>
         </div>
     </div>
