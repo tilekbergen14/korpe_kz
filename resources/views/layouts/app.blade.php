@@ -13,6 +13,7 @@
 
     <!-- Bootstrap core CSS -->
     <link href="/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="/app.css" rel="stylesheet" />
     <!--
 
 TemplateMo 546 Sixteen Clothing
@@ -52,15 +53,16 @@ https://templatemo.com/tm-546-sixteen-clothing
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item">
-                            <a class="nav-link active" href="{{ route('home') }}">Басты Бет
-                                <span class="sr-only">(current)</span>
-                            </a>
+                            <a class="nav-link" href="{{ route('home') }}">Басты Бет</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="{{ route('store') }}">Магазин</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="{{ route('about') }}">Байланыс</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ route('tools') }}">Техника</a>
                         </li>
                     </ul>
                 </div>

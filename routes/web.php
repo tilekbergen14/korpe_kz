@@ -36,6 +36,10 @@ Route::post('/admin/createproduct', [ProductsController::class, 'createproduct_p
 
 Route::delete('/admin/deletepost/{id}', [ProductsController::class, 'delete'])->name("delete");
 
+Route::get('/tools', function(){
+    return view("tools");
+})->name("tools");
+
 
 Route::get('/', function () {
     $products = Product::take(6)->get();

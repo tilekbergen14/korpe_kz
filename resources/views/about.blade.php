@@ -32,15 +32,14 @@
                     <div class="left-content">
                         <h4>Біз туралы &amp; Қандай қызметтер көрсетеміз?</h4>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed
-                            voluptate nihil eum consectetur similique? Consectetur, quod,
-                            incidunt, harum nisi dolores delectus reprehenderit voluptatem
-                            perferendis dicta dolorem non blanditiis ex fugiat. Lorem ipsum
-                            dolor sit amet, consectetur adipisicing elit.<br /><br />Lorem
-                            ipsum dolor sit amet, consectetur adipisicing elit. Et,
-                            consequuntur, modi mollitia corporis ipsa voluptate corrupti eum
-                            ratione ex ea praesentium quibusdam? Aut, in eum facere corrupti
-                            necessitatibus perspiciatis quis.
+                            Біздің орталық 2015 жылдан бері жұмыс жасап келеді.Осы жылдар аралығында
+                            1000-нан астам клиентке сапалы өнім ұсынды.Негізгі филлиалымыз Алматы қаласында
+                            орналасқан. Korpe.kz – Қазақстан бойынша жеткізу қызметі бар жетекші қазақстандық интернет-дүкен
+                            <br /><br />Біздің ассортиментіміз үнемі өсіп келеді.Бұл біздің жұмысымыздың деңгейін көрсетеді.
+                            Орталықта тек қана көрпе жасау ғана емес көрпелерді, жастықтарды реставрациялаумен де
+                            айналысады.
+                            Біздің филлиалдарымыз Талдықорған,Астана,Алматы қалаларында орналасқан.
+
                         </p>
                         <ul class="social-icons">
                             <li>
@@ -78,24 +77,21 @@
                                             <a href="#"><i class="fa fa-facebook"></i></a>
                                         </li>
                                         <li>
-                                            <a href="#"><i class="fa fa-twitter"></i></a>
+                                            <a href="#"><i class="fa fa-instagram"></i></a>
                                         </li>
                                         <li>
-                                            <a href="#"><i class="fa fa-linkedin"></i></a>
+                                            <a href="https://wa.me/77018439988"><i class="fa fa-whatsapp"></i></a>
                                         </li>
-                                        <li>
-                                            <a href="#"><i class="fa fa-behance"></i></a>
-                                        </li>
+
                                     </ul>
                                 </div>
                             </div>
                         </div>
                         <div class="down-content">
-                            <h4>Johnny William</h4>
-                            <span>CO-Founder</span>
+                            <h4>Mustafaeva Gulsara</h4>
+                            <span>Director</span>
                             <p>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing itaque
-                                corporis nulla.
+                                Орталықтың негізін қалаушысы.Қазіргі таңда директор
                             </p>
                         </div>
                     </div>
@@ -111,24 +107,21 @@
                                             <a href="#"><i class="fa fa-facebook"></i></a>
                                         </li>
                                         <li>
-                                            <a href="#"><i class="fa fa-twitter"></i></a>
+                                            <a href="#"><i class="fa fa-instagram"></i></a>
                                         </li>
                                         <li>
-                                            <a href="#"><i class="fa fa-linkedin"></i></a>
+                                            <a href="https://wa.me/77087011111"><i class="fa fa-whatsapp"></i></a>
                                         </li>
-                                        <li>
-                                            <a href="#"><i class="fa fa-behance"></i></a>
-                                        </li>
+
                                     </ul>
                                 </div>
                             </div>
                         </div>
                         <div class="down-content">
-                            <h4>Karry Pitcher</h4>
+                            <h4>Shaken Sapar</h4>
                             <span>Product Expert</span>
                             <p>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing itaque
-                                corporis nulla.
+                                Өнімнің сапасына тікелей жауап берушісі.
                             </p>
                         </div>
                     </div>
@@ -144,127 +137,26 @@
                                             <a href="#"><i class="fa fa-facebook"></i></a>
                                         </li>
                                         <li>
-                                            <a href="#"><i class="fa fa-twitter"></i></a>
+                                            <a href=""><i class="fa fa-instagram"></i></a>
                                         </li>
                                         <li>
-                                            <a href="#"><i class="fa fa-linkedin"></i></a>
+                                            <a href="https://wa.me/77072693064"><i class="fa fa-whatsapp"></i></a>
                                         </li>
-                                        <li>
-                                            <a href="#"><i class="fa fa-behance"></i></a>
-                                        </li>
+
                                     </ul>
                                 </div>
                             </div>
                         </div>
                         <div class="down-content">
-                            <h4>Michael Soft</h4>
-                            <span>Chief Marketing</span>
+                            <h4>Bodykov Marat</h4>
+                            <span> Marketing</span>
                             <p>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing itaque
-                                corporis nulla.
+                                Бұл сайттың ақпараттық қамтамасыз етушісі.
                             </p>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="team-member">
-                        <div class="thumb-container">
-                            <img src="assets/images/team_04.jpg" alt="" />
-                            <div class="hover-effect">
-                                <div class="hover-content">
-                                    <ul class="social-icons">
-                                        <li>
-                                            <a href="#"><i class="fa fa-facebook"></i></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><i class="fa fa-twitter"></i></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><i class="fa fa-linkedin"></i></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><i class="fa fa-behance"></i></a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="down-content">
-                            <h4>Mary Cool</h4>
-                            <span>Product Specialist</span>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing itaque
-                                corporis nulla.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="team-member">
-                        <div class="thumb-container">
-                            <img src="assets/images/team_05.jpg" alt="" />
-                            <div class="hover-effect">
-                                <div class="hover-content">
-                                    <ul class="social-icons">
-                                        <li>
-                                            <a href="#"><i class="fa fa-facebook"></i></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><i class="fa fa-twitter"></i></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><i class="fa fa-linkedin"></i></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><i class="fa fa-behance"></i></a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="down-content">
-                            <h4>George Walker</h4>
-                            <span>Product Photographer</span>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing itaque
-                                corporis nulla.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="team-member">
-                        <div class="thumb-container">
-                            <img src="assets/images/team_06.jpg" alt="" />
-                            <div class="hover-effect">
-                                <div class="hover-content">
-                                    <ul class="social-icons">
-                                        <li>
-                                            <a href="#"><i class="fa fa-facebook"></i></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><i class="fa fa-twitter"></i></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><i class="fa fa-linkedin"></i></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><i class="fa fa-behance"></i></a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="down-content">
-                            <h4>Kate Town</h4>
-                            <span>General Manager</span>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing itaque
-                                corporis nulla.
-                            </p>
-                        </div>
-                    </div>
-                </div>
+
             </div>
         </div>
     </div>
@@ -274,9 +166,7 @@
             <div class="row">
                 <div class="col-md-4">
                     <div class="service-item">
-                        <div class="icon">
-                            <i class="fa fa-gear"></i>
-                        </div>
+
                         <div class="down-content">
                             <h4>Product Management</h4>
                             <p>
@@ -289,9 +179,7 @@
                 </div>
                 <div class="col-md-4">
                     <div class="service-item">
-                        <div class="icon">
-                            <i class="fa fa-gear"></i>
-                        </div>
+
                         <div class="down-content">
                             <h4>Customer Relations</h4>
                             <p>
@@ -304,9 +192,7 @@
                 </div>
                 <div class="col-md-4">
                     <div class="service-item">
-                        <div class="icon">
-                            <i class="fa fa-gear"></i>
-                        </div>
+
                         <div class="down-content">
                             <h4>Global Collection</h4>
                             <p>
@@ -320,43 +206,5 @@
             </div>
         </div>
     </div>
-
-    <div class="happy-clients">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="section-heading">
-                        <h2>Happy Partners</h2>
-                    </div>
-                </div>
-                <div class="col-md-12">
-                    <div class="owl-clients owl-carousel">
-                        <div class="client-item">
-                            <img src="assets/images/client-01.png" alt="1" />
-                        </div>
-
-                        <div class="client-item">
-                            <img src="assets/images/client-01.png" alt="2" />
-                        </div>
-
-                        <div class="client-item">
-                            <img src="assets/images/client-01.png" alt="3" />
-                        </div>
-
-                        <div class="client-item">
-                            <img src="assets/images/client-01.png" alt="4" />
-                        </div>
-
-                        <div class="client-item">
-                            <img src="assets/images/client-01.png" alt="5" />
-                        </div>
-
-                        <div class="client-item">
-                            <img src="assets/images/client-01.png" alt="6" />
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
     </div>
 @endsection
